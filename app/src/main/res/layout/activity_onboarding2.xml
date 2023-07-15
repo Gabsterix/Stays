@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnboardingActivity">
+
+    <ImageView
+        android:id="@+id/imgPlaceholder"
+        android:layout_width="350sp"
+        android:layout_height="350sp"
+        android:src="@drawable/onboarding"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btn_Onboarding_Login"
+        android:layout_width="350dp"
+        android:layout_height="50sp"
+        android:background="@drawable/rounded_primary_button"
+        android:text="Login"
+        android:textSize="18dp"
+        android:paddingLeft="125dp"
+        android:paddingRight="125dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgPlaceholder"/>
+
+    <Button
+        android:id="@+id/btn_Onboarding_Signup"
+        android:layout_width="350dp"
+        android:layout_height="50sp"
+        android:text="Signup"
+        android:textSize="18dp"
+        android:paddingLeft="125dp"
+        android:paddingRight="125dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_secondary_button"
+        android:layout_below="@+id/btn_Onboarding_Login"/>
+
+</RelativeLayout>
